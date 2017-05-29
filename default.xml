@@ -2,7 +2,7 @@
 <logformat 
   xmlns="https://www.w3schools.com"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://www.w3schools.com logz.xsd">
+  xsi:schemaLocation="https://www.w3schools.com onelog.xsd">
   <filter><![CDATA[\s*(?:\[\s*(?<timestamp>\d+\:\d+\:\d+(?:\.\d+)?(?:\s+\d+[/-]\d+[/-]\d+)?)\s*\])?\s*(?:\[(?<level>[\w\s]+)\])?\s*(?:\[(?<system>[\w\s]+)\])?(?:\s*\[(?<filters>.*?)\])*]]></filter>
   <event><![CDATA[(?<message>.*)]]></event>
   <status><![CDATA[(?<id>.*)?\s*{(?:\s*(?<keys>\w+)\s*=\s*(?<values>(?:[\w-]*)|\"|\')\s*[;,])*(?:\s*(?<keys>\w+)\s*=\s*(?<values>(?:[\w-]*)|\"|\')\s*)?\s*}]]></status>
